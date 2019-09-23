@@ -1,1 +1,23 @@
-/* CSS code  */
+nav {
+    background-color: #10243b;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul:first-child {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    color: white;
+    font-family: 'OpenSans', sans serif;
+}
