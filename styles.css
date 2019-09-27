@@ -11,10 +11,10 @@ body {
 
 nav {
     margin: 0px;
-    padding: 0px;
+    padding-top: 20px;
     background-color: #10243b;
-    width: auto;
-    height: 80px;
+    width: 100vw;
+    height: 35px;
 }
 
 ul {
@@ -39,27 +39,28 @@ li {
     float: right;
 }
 
+.left{
+    float: left;
+}
+
 /*---------------hero -----------------*/
 
 
-#hero {
-    background-image: url(images/graduation.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+#hero{
     height: 100vh;
     width: 100vw;
+    background-image: url(images/fans.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-#heroimg {
+#herosection img{
     position: relative;
-    top: 130px;
-    left: 100px;
-}
-
-#herotext {
-    position: relative;
-    top: 130px;
+    top: 200px;
     left: 300px;
-    color: white;
-    text-shadow: 1px 1px #333333
+}
+
+#herotext{
+    position: relative;
 }
