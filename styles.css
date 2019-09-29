@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #navbarleft {
-    verticle-align: middle;
+    vertical-align: middle;
 }
 
 body {
@@ -30,8 +35,8 @@ ul:first-child {
 
 li {
     display: inline;
-    padding: 4px;
-    margin: 4px;
+    padding: 3px;
+    margin: 3px;
     text-transform: uppercase;
 }
 
@@ -43,24 +48,146 @@ li {
     float: left;
 }
 
+.h1-style {
+    font-size: 3em;
+    color: #00344C;
+    margin-bottom: 30px;
+}
+
+h1-style2 {
+    font-size: 2.25rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: inherit;
+}
+
 /*---------------hero -----------------*/
 
 
 #hero{
     height: 100vh;
     width: 100vw;
-    background-image: url(images/fans.jpg);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 #herosection img{
     position: relative;
-    top: 200px;
-    left: 300px;
+    top: 100px;
+    left: 20px;
 }
 
 #herotext{
     position: relative;
+    top: 0px;
+    left: 170px;
+}
+
+/*----------------------Explore CCHS Section----------------------*/
+#explorecchs {
+    width: 100vw;
+    height: 400px;
+}
+
+#exploreheader {
+    width:100vw;
+    height: 81px;
+    background-color: #10243B;
+    text-align: center;
+}
+
+#marginarrow {
+    margin-bottom: 10px;
+    font-size: 24px;
+    padding-top: 6px;
+}
+
+#exploresection {
+    width: 100vw;
+    height: 319px;
+    background-color: #a3dde8;
+}
+
+.explorebox {
+    height: 315px;
+    width: 25%;
+    background-color: white;
+    float: left;
+}
+
+#hurricane {
+    background-image: url("images/patriots\ plaza.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#Media {
+    background-image: url("images/ccnn\ live.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#CCNN {
+    background-image: url("images/ccnn.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#guidance {
+    background-image: url("images/college.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/*----------------------------CCHS At A Glance-------------*/
+
+#cchsataglance {
+    width: 100vw;
+    height: 400px;
+    padding: 30px 0px 0px;
+}
+
+#glanceheader {
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+#glancesection {
+    width: 100vw;
+    height: 300px;
+    background-color: slateblue;
+}
+
+.glancebox2 {
+    height: 315px;
+    width: 25%;
+    background-color: white;
+    float: left;
+}
+
+#scholarship {
+    background-image: url("images/carosel\ money.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hundredpercent {
+    background-image: url("images/carosel\ graduation.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#levels {
+    background-image: url("images/book.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#studentratio {
+    background-image: url("images/carosel\ teaching.jpg");
+    background-position: center;
+    background-size: cover;
 }
