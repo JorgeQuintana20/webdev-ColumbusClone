@@ -18,7 +18,7 @@ nav {
     margin: 0px;
     padding-top: 20px;
     background-color: #10243b;
-    width: 100vw;
+    width: 100%;
     height: 35px;
 }
 
@@ -65,7 +65,7 @@ h1-style2 {
 
 #hero{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,12 +86,12 @@ h1-style2 {
 
 /*----------------------Explore CCHS Section----------------------*/
 #explorecchs {
-    width: 100vw;
+    width: 100%;
     height: 400px;
 }
 
 #exploreheader {
-    width:100vw;
+    width:100%;
     height: 81px;
     background-color: #10243B;
     text-align: center;
@@ -104,7 +104,7 @@ h1-style2 {
 }
 
 #exploresection {
-    width: 100vw;
+    width: 100%;
     height: 319px;
     background-color: #a3dde8;
 }
@@ -142,52 +142,62 @@ h1-style2 {
 
 /*----------------------------CCHS At A Glance-------------*/
 
-#cchsataglance {
-    width: 100vw;
+#cchsglance {
+    width: 85%;
     height: 400px;
-    padding: 30px 0px 0px;
+    color: black;
+    margin: 0 auto;
+    
 }
 
 #glanceheader {
-    width: 100vw;
+    width: 100%;
     height: 100px;
-    background-color: white;
     text-align: center;
 }
 
-#glancesection {
-    width: 100vw;
+#glancecontent {
+    display: inline-block;
+    width: 100%;
     height: 300px;
-    background-color: slateblue;
+    text-align: center;
 }
 
-.glancebox2 {
-    height: 315px;
-    width: 25%;
-    background-color: white;
+.glancebox {
+    /* width: 25%; */
     float: left;
+    height: 300px;
+    width: 400px;
 }
 
-#scholarship {
-    background-image: url("images/carosel\ money.jpg");
-    background-position: center;
-    background-size: cover;
+.glancebox img{
+    width: 40%;
 }
 
-#hundredpercent {
-    background-image: url("images/carosel\ graduation.jpg");
-    background-position: center;
-    background-size: cover;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------College-------------------------------*/
+
+
+#college {
+    width: 100%;
+    height: 400px;
+    background-color: white;
 }
 
-#levels {
-    background-image: url("images/book.jpg");
-    background-position: center;
-    background-size: cover;
-}
+#collegeheader {
 
-#studentratio {
-    background-image: url("images/carosel\ teaching.jpg");
-    background-position: center;
-    background-size: cover;
 }
