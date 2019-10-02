@@ -30,38 +30,35 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
+
 /*--------------------------------Navbar---------------------*/
 
-.navbar {
-    vertical-align: middle;
-}
 
-
-nav {
-    margin: 0px;
-    padding-top: 20px;
+.nav {
     background-color: #10243b;
-    width: 100%;
-    height: 35px;
+    overflow: hidden;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav li {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 5px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-ul:first-child {
-    padding-left: 0px;
-    margin-left: 0px;
+
+.nav-right {
+  float: right;
 }
 
-li {
-    display: inline;
-    padding: 3px;
-    margin: 3px;
-    text-transform: uppercase;
-}
+
+
 
 
 /*---------------hero -----------------*/
@@ -69,7 +66,7 @@ li {
 
 #hero{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +81,7 @@ li {
 
 #herotext{
     position: relative;
-    width: 900px;
+    width: 60%;
     top: 0px;
     left: 170px;
 }
@@ -158,6 +155,7 @@ li {
     width: 100%;
     height: 100px;
     text-align: center;
+    padding-top: 20px;
 }
 
 #glancecontent {
@@ -172,14 +170,14 @@ li {
 }
 
 .glancebox {
-    /* width: 25%; */
+    width: 25%; 
     float: left;
     height: 300px;
-    width: 400px;
+    width: 302px;
 }
 
 .glancebox img{
-    width: 40%;
+    width: 60%;
 }
 
 
@@ -189,7 +187,7 @@ li {
 
 
     #apcourses{
-        width: 100vw;
+        width: 80%;
         height: 300px;
         background-color: white;  
         padding-left: 20%;      
@@ -197,10 +195,11 @@ li {
     }
 
     #apheader{
-        width: 60%;
+        width: 80%;
         height: 100px;
         background-color: #10243B;
         text-align: center;
+        margin-top: 50px;
         padding-top: 50px;
         margin-bottom: 0px;
     }
@@ -225,12 +224,12 @@ li {
     color: black;
     font-size: 18px;
     text-align: center;
-    border-top: solid yellow 1px;
+    border-top: solid brown 1px;
     padding-top: 20px;
 }
 
 #collegeimg {
-    width: 100vw;
+    width: 99vw;
     height: 200px;
     display: block;
     margin-right: auto;
@@ -240,13 +239,14 @@ li {
 /*--------------------------Footer---------------*/
 
 #missionstatement {
-    width: 1000px;
+    width: 80%;
     height: 50px;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     font-style: italic;
     font-size: .875em;
     padding-top: 50px;
+    padding-left: 70px;
 }
 
 #footer {
@@ -261,10 +261,29 @@ li {
     margin-right: 100px;
 }
 
+
 #contact h4 {
     margin-top: 25px;
-}
+    margin-bottom: 50px;
+    padding-left: 70px;
+} 
 
 #footernav {
     background-color: #10243B;
+    height: 50px;
+    width: 100%;
+}
+
+#footernav li {
+    display: inline;
+}
+
+#footernav ul{
+    text-align: center;
+    padding: 10px;
+}
+
+#footerli {
+    float: left;
+    padding-right: 250px;
 }
